@@ -1,0 +1,17 @@
+<article class="li">
+
+	<div class="detail">
+		{{ partial "articledetails.html" . }}
+		<a href="{{ .Permalink }}" class="clearfix">
+			<h2 id="posttitle">{{ .Title }}</h2>
+		</a>	  
+		
+		<div class="summary">
+			{{ .Summary }}
+			<a href="{{ .Permalink }}" class="morebutton clearfix">Mehr...</a>
+		</div>
+	</div>
+	<hr>
+	<p><br /></p>
+
+</article>

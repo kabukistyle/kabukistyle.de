@@ -1,0 +1,12 @@
+baseurl = "http://www.kabukistyle.de/"
+title = "kabukistyle17"
+languageCode = "de-DE"
+copyright = "Copyright (c) 2017, Oliver Dreier"
+MetaDataFormat = "yaml"
+
+[author]
+    name = "Oliver Dreier"
+
+[taxonomies]
+	tag = "tags"
+

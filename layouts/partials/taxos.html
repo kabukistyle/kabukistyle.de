@@ -1,0 +1,17 @@
+﻿				
+				<div class="row">
+					<div class="col-md-8">
+								<h2 class="taxtitle">
+									tags
+								</h2>
+								{{ range $key, $value := .Site.Taxonomies }}
+									<div class="section taxonomies">
+										<h3 class="taxnames">
+										| 
+										{{ range first 10 $value.ByCount }}<a href="{{ $.Site.BaseURL}}{{ $key }}/{{ .Name | urlize }}">{{ .Name }}</a> | {{ end }}
+										</h3>
+									</div>
+								{{ end }}
+								
+					</div>
+				</div>

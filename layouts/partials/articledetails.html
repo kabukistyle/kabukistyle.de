@@ -1,0 +1,5 @@
+<div class="articledetails">{{.Date.Day}}. {{ index $.Site.Data.month (printf "%d" .Date.Month) }} {{ .Date.Year }} {{ .Date.Hour }}:{{ .Date.Minute }}
+  {{ range .Params.tags }}
+    | <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+  {{ end }}
+</div>

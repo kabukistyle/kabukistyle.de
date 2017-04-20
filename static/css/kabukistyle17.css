@@ -1,0 +1,105 @@
+body {
+    background-image:url("/images/buksbackground.png");
+	background-repeat: no-repeat;
+	background-position: right 5% top;
+	background-attachment: fixed;
+	min-height: 1000px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: normal;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	font-weight: bold;
+	color: black;
+}
+a:active {
+	font-weight: bold;
+	color: black;
+}
+
+#bootstrap-overrides #banner {
+	color: red;
+	font-variant: small-caps;
+}
+
+#bootstrap-overrides h1 {
+	font-size: 70px;
+	padding-bottom:20px;
+	margin-bottom:20px;
+}
+
+#bootstrap-overrides #banner a:hover,#bootstrap-overrides  #banner a:link, #bootstrap-overrides  #banner a:visited,  #bootstrap-overrides #banner a:active {
+	color: red;
+	font-weight: normal;
+}
+
+#bootstrap-overrides .lastline {
+	text-align: right;
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	height:30px;
+	right:5%;
+	width:95%;
+}
+
+#bootstrap-overrides .morebutton {
+	color: red;
+	font-variant: small-caps;
+	text-align: right;
+	display: block;
+}
+
+#bootstrap-overrides .summary, #bootstrap-overrides .article-body {
+	font-size:16px;
+	text-align: justify;
+}
+
+#bootstrap-overrides .articledetails {
+	font-size:8pt;
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+
+#bootstrap-overrides .taxtitle {
+	color: red;
+	font-variant: small-caps;
+}
+
+#bootstrap-overrides .taxnames {
+	font-variant: small-caps;
+}
+
+
+#bootstrap-overrides #posttitle {
+	padding-top:0px;
+	margin-top:0px;
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+
+
+#bootstrap-overrides h2 {
+	font-size: 35px;
+
+}
+
+#bootstrap-overrides h3 {
+	font-size: 20px;
+}
+
+hr { 
+    width: 50%; 
+    height: 1px; 
+    margin: 0 auto;
+    color: red;
+    background: red;
+}

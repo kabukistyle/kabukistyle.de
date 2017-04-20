@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<div class="single">
+	{{ partial "default_head.html" . }}
+
+		<body id="bootstrap-overrides">
+
+			<div class="container site">
+
+				{{ partial "banner.html" . }}
+			
+				<div class="row">
+					<div class="col-md-8">
+
+						<article class="single">
+						
+							{{ partial "articledetails.html" . }}
+
+							<h2 id="posttitle">{{ .Title }}</h2>
+								
+
+							<div class="article-body">
+							{{ .Content }}
+							</div>
+
+						</article>
+					</div>
+
+				</div>
+				
+				{{ partial "taxos.html" . }}
+			
+				{{ partial "breaks.html" . }}	
+				
+			</div>
+			
+			
+			{{ partial "default_foot.html" . }}
+		</body>
+
+	</div>
+</html>
