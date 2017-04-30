@@ -8,6 +8,14 @@ body {
 	font-weight: normal;
 }
 
+a.mytablelink:hover,a.mytablelink:focus,a.mytablelink:link,a.mytablelink:visited,a.mytablelink:active  {
+	color: black;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+
+
 a:link {
 	text-decoration: none;
 	color: black;
@@ -25,6 +33,20 @@ a:active {
 	color: black;
 }
 
+#bootstrap-overrides #mytablelink a {
+	color: black;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+
+#bootstrap-overrides #banner a:hover,#bootstrap-overrides  #banner a:link, #bootstrap-overrides  #banner a:visited,  #bootstrap-overrides #banner a:active {
+	color: red;
+	font-weight: normal;
+}
+
+
+
 #bootstrap-overrides #banner {
 	color: red;
 	font-variant: small-caps;
@@ -36,10 +58,6 @@ a:active {
 	margin-bottom:20px;
 }
 
-#bootstrap-overrides #banner a:hover,#bootstrap-overrides  #banner a:link, #bootstrap-overrides  #banner a:visited,  #bootstrap-overrides #banner a:active {
-	color: red;
-	font-weight: normal;
-}
 
 #bootstrap-overrides .lastline {
 	text-align: right;
@@ -103,3 +121,55 @@ hr {
     color: red;
     background: red;
 }
+
+#mytable {
+	border:1px solid black; 
+	border-collapse: collapse;
+	width:100%
+	padding:0px;
+	margin:0px;
+	border-bottom:2px solid black;
+}
+
+#firstrow {
+	font-weight:bold;
+	font-size:16px;
+	border:2px solid black;
+}
+
+
+
+.firstcell {
+	width:5%;
+	text-align:center;
+	vertical-align:middle;
+	border-left:2px solid black; 
+	border-right:2px solid black;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+}
+
+.secondcell, .thirdcell, .fourthcell {
+	width:25%;
+	font-size:16px;
+	text-align:left;
+	vertical-align:top;
+	border-left:2px solid black; 
+	border-right:2px solid black;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	padding:2px;
+}
+
+.fifthcell {
+	width:15%;
+	font-size:10px;
+	text-align:left;
+	vertical-align:top;
+	border-left:2px solid black; 
+	border-right:2px solid black;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	padding:2px;
+}
+

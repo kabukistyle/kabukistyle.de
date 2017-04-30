@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<div class="index">
+	{{ partial "default_head.html" . }}
+
+		<body id="bootstrap-overrides">
+			
+			<div class="container site"> 
+
+				{{ partial "banner.html" . }}
+			
+				<div class="row">
+					<div class="col-md-8">
+
+						<h1 id="banner">
+							404
+						</h1>
+
+					</div>
+
+				{{ partial "pagination.html" . }}
+
+				</div>
+				
+				{{ partial "taxos.html" . }}
+			
+				{{ partial "breaks.html" . }}	
+					
+		
+			</div>
+
+			{{ partial "default_foot.html" . }}
+			
+			
+		</body>
+
+	</div>
+</html>
+
