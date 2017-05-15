@@ -2,31 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>//www.kabukistyle.de/post/filme_meines_lebens_1978-1989/</loc>
+    <loc>https://www.kabukistyle.de/post/filme_meines_lebens_1990-1999/</loc>
+    <lastmod>2017-05-16T18:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.kabukistyle.de/datenschutz/</loc>
     <lastmod>2017-05-01T09:00:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>//www.kabukistyle.de/tags/filme/</loc>
+    <loc>https://www.kabukistyle.de/post/filme_meines_lebens_1978-1989/</loc>
     <lastmod>2017-05-01T09:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.kabukistyle.de/impressum/</loc>
+    <lastmod>2017-05-01T09:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.kabukistyle.de/tags/filme/</loc>
+    <lastmod>2017-05-16T18:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//www.kabukistyle.de/post/</loc>
-    <lastmod>2017-05-01T09:00:00+02:00</lastmod>
+    <loc>https://www.kabukistyle.de/post/</loc>
+    <lastmod>2017-05-16T18:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//www.kabukistyle.de/tags/</loc>
-    <lastmod>2017-05-01T09:00:00+02:00</lastmod>
+    <loc>https://www.kabukistyle.de/tags/</loc>
+    <lastmod>2017-05-16T18:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//www.kabukistyle.de/</loc>
-    <lastmod>2017-05-01T09:00:00+02:00</lastmod>
+    <loc>https://www.kabukistyle.de/</loc>
+    <lastmod>2017-05-16T18:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
